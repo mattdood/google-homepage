@@ -146,7 +146,6 @@ a:hover {
   bottom: 0;
   width: 100%;
   background-color: #F2F2F2;
-  padding-bottom: 15px;
   border: solid;
   border-width: thin;
   border-color: #F9F9F9;
@@ -161,7 +160,6 @@ a:hover {
 
 .bottom-nav-left {
   margin: 15px;
-  margin-top: 310px;
 }
 
 .Advertising {
@@ -170,7 +168,6 @@ a:hover {
 
 .bottom-nav-right {
   margin: 15px;
-  margin-top: 310px;
   float: right;
 }
 
