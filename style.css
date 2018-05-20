@@ -3,19 +3,56 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-color: rgba(0, 0, 0, 0.80);
+}
+
 .logo {
   position: relative;
   margin-left: 31%;
   margin-top: 16%;
 }
 
-.header {
-  font-family: arial, sans-serif;
-  font-size: 13px;
-  font-weight: 200;
+/* Search Bar Section */
+
+.search-bar {
+  width: 500px;
+  height: 30px;
+  margin-top: 2%;
+  margin-left: 31%;
 }
 
-.footer {
+.button {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search-button {
+  width: 150px;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+
+.search-button:hover {
+  text-decoration-style: solid;
+}
+
+.im-feeling-lucky {
+  width: 150px;
+  height: 50px;
+  position: relative;
+}
+
+/* Header Section*/
+
+.header {
   font-family: arial, sans-serif;
   font-size: 13px;
   font-weight: 200;
@@ -48,11 +85,29 @@ body {
   margin-right: 12%;
 }
 
+/* Footer Section */
+
+.footer {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+}
+
 .bottom-nav-left {
   margin: 15px;
+  margin-top: 310px;
+}
+
+.Advertising {
+  padding-left: 17px;
 }
 
 .bottom-nav-right {
   margin: 15px;
-  margin-top: 90%;
+  margin-top: 310px;
+  float: right;
+}
+
+.Settings {
+  padding-right: 16px;
 }
